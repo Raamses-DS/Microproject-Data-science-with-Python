@@ -32,5 +32,42 @@ GDP_values = np.array([2255.225482,629.9553062,11601.63022,25306.82494,27266.403
                        2699.123242,21058.43643,28272.40661,37691.02733,9581.05659,5671.912202,757.4009286,
                        347.7456605])
 
+#Use the argmax() method to find the highest GDP
+
+max_GDP = GDP_values.argmax()
+
+#Print the name of the country
+
+country_with_max_GDP = Countries[max_GDP]
+print(country_with_max_GDP)
+
+#Use the argmin() method to find the lowest GDP
+
+min_GDP = GDP_values.argmin()
+
+#Print the name of the country
+
+country_with_min_GDP = Countries[min_GDP]
+print(country_with_min_GDP)
+
+#Use a for loop to print the required output: Print out text ('evaluating country') and input value ('country name') iteratively
+
+for country in Countries:
+    print('evaluating country {}'.format(country))
+
+#Use a for loop to print the required list: Print out the entire list of the countries with their GDPs
+
+for i in range(len(Countries)):
+    country = Countries[i]
+    country_GPD_values = GDP_values[i]
+    print('Country {} per capita GPD value is {}'.format(country,country_GPD_values))
+
+# Print: Highest GPD value, Lowest GDP value, Mean GDP value, Standardized GDP value, Sum of all the GDPs. 
+
+print(GDP_values.max())
+print(GDP_values.min())
+print(GDP_values.mean())
+print(GDP_values.std())
+print(GDP_values.sum())
 
 
