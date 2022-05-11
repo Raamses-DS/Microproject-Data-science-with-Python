@@ -42,6 +42,3 @@ for i in range(len(olympic_country)):
     country = olympic_country[i]
     total_medals = olympic_country_gold[i] + olympic_country_silver[i] + olympic_country_bronze[i]
     print("{}, gold medals {}, Total medals {}".format(country,number_of_gold_medals,total_medals))
-
-
-
