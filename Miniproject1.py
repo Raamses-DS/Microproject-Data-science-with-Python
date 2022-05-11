@@ -69,5 +69,3 @@ print(GDP_values.min())
 print(GDP_values.mean())
 print(GDP_values.std())
 print(GDP_values.sum())
-
-
