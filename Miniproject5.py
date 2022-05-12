@@ -1,3 +1,27 @@
+"""
+Problem:
+
+Analyze the Federal Aviation Authority (FAA) dataset using Pandas to do the following:
+
+View
+aircraft make name
+state name
+aircraft model name
+text information
+flight phase
+event description type
+fatal flag
+
+2. Clean the dataset and replace the fatal flag NaN with “No”
+
+3. Find the aircraft types and their occurrences in the dataset
+
+4. Remove all the observations where aircraft names are not available
+
+5. Display the observations where fatal flag is "Yes".
+"""
+
+
 import numpy as np
 import pandas as pd
 
